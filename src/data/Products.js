@@ -1,18 +1,18 @@
-import product1 from "./assets/img-1.png";
-import product2 from "./assets/img-2.png";
-import product3 from "./assets/img-3.png";
-import product4 from "./assets/img-4.png";
-import product5 from "./assets/img-5.png";
-import product6 from "./assets/img-6.png";
-import product7 from "./assets/img-7.png";
-import product8 from "./assets/img-8.png";
-import product9 from "./assets/img-9.png";
-import product10 from "./assets/img-10.png";
-import product11 from "./assets/img-11.png";
-import product12 from "./assets/img-12.png";
-import product13 from "./assets/img-13.png";
-import product14 from "./assets/img-14.png";
-import product15 from "./assets/img-15.png";
+import product1 from "../assets/img-1.png";
+import product2 from "../assets/img-2.png";
+import product3 from "../assets/img-3.png";
+import product4 from "../assets/img-4.png";
+import product5 from "../assets/img-5.png";
+import product6 from "../assets/img-6.png";
+import product7 from "../assets/img-7.png";
+import product8 from "../assets/img-8.png";
+import product9 from "../assets/img-9.png";
+import product10 from "../assets/img-10.png";
+import product11 from "../assets/img-11.png";
+import product12 from "../assets/img-12.png";
+import product13 from "../assets/img-13.png";
+import product14 from "../assets/img-14.png";
+import product15 from "../assets/img-15.png";
 
 export const Products = [
   {
