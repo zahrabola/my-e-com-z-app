@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.shop-title {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 20px;
+}
+.products-card {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  place-items: center;
+}
+
+.img-card {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  z-index: 1;
+
+}
+img {
+  width: 400px;
+  height: 350px;
+  display: block;
+  object-fit: contain;
+  
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  position: relative;
+  margin: 20px auto;
+}
+
+/*
+.card {
+  border-radius: 15px;
+  width: 300px;
+  height: 350px;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.card .cardbox {
+  text-align: center;
+}
+
+.card:hover {
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}  */

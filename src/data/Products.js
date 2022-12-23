@@ -125,5 +125,6 @@ export const Products = [
 
 ////https://freefrontend.com/css-product-cards/
 ///https://codepen.io/sam_garcia2/pen/PozpPRy
+//https://codepen.io/wingerdstok/pen/WjrPZY
 ///https://codepen.io/cupofmint/pen/wgyrRX
 //https://github.com/machadop1407/shopping-cart-react/blob/main/src/products.js
