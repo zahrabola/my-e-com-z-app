@@ -13,6 +13,7 @@ const Card = (props) => {
         <h4>{productName}</h4>
         <p>£{price}</p>
       </div>
+      <button className="add-Cartbtn">Add to Cart</button>
     </div>
   );
 };
