@@ -12,7 +12,14 @@ const Cartitem = (props) => {
         <h2>{title}</h2>
         <h4>{productName}</h4>
         <p>£{price}</p>
-
+<div className="counthandler">
+    <button>
+        -
+    </button>
+    <button>
+        +
+    </button>
+</div>
       </div>
         </div>
         
