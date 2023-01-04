@@ -8,7 +8,7 @@ const Card = (props) => {
   return (
     <div className="card">
       {" "}
-      hello
+    
       <div className="img-card">
         <img src={productImage} alt="tech" />
       </div>

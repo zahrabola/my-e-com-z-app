@@ -1,0 +1,36 @@
+.cartitem{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    place-items: center;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+}
+.cartcontainer{
+    padding: 10px;
+    margin: 10px;
+}
+.img-card {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 1;
+    animation-delay: 0.5s;
+  }
+  img {
+    width: 400px;
+    height: 350px;
+    display: block;
+    object-fit: contain;
+  }
+  h1{
+    padding: 10px;
+    margin: 10px;
+  }
