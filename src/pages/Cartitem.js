@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
+import { ShopContext } from "../context/ContextShop";
 
 const Cartitem = (props) => {
     const { title, productName, price, productImage, id } = props.data;
+    const {  cartObject } = useContext(ShopContext);
     return (
     
    <div className="cartitem"> 
@@ -13,12 +15,9 @@ const Cartitem = (props) => {
         <h4>{productName}</h4>
         <p>£{price}</p>
 <div className="counthandler">
-    <button>
-        -
-    </button>
-    <button>
-        +
-    </button>
+    <button>-</button>   
+    <input value={cartObject[id]} />
+    <button>+</button>
 </div>
       </div>
         </div>
