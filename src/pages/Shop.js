@@ -5,7 +5,7 @@ import "../style/shop.css";
 
 const Shop = () => {
   return (
-    <div className="shop ">
+    <div className="shops ">
       <div className="shop-title">
         <h2>Zahra Olanrewaju</h2>
         <p>E commerce Website</p>

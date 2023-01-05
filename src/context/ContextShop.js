@@ -42,10 +42,13 @@ const getCartTotal = () => {
  const updateItemCount = (newAmount, ItemsId) => {
   setCartObject((prev) => ({...prev, [ItemsId]: newAmount}));
  }
+ const checkout = () =>{
+  setCartObject(GetDefaultCart)
+ }
 
 
 
-  const contextValue = { cartObject, addCart, removeCart, updateItemCount, getCartTotal};
+  const contextValue = { cartObject, addCart, removeCart, updateItemCount, getCartTotal, checkout};
 console.log(cartObject);
   return (
     <ShopContext.Provider value={contextValue}>

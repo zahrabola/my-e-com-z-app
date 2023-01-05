@@ -6,9 +6,7 @@ const Card = (props) => {
 
   const cartItemAmount = cartObject[id];
   return (
-    <div className="card">
-      {" "}
-    
+    <div className="card ">
       <div className="img-card">
         <img src={productImage} alt="tech" />
       </div>
