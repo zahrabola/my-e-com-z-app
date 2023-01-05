@@ -6,7 +6,8 @@ import "../style/cart.css";
 
 const Cart = () => {
 
-    const { cartObject } = useContext(ShopContext)
+    const { cartObject, getCartTotal } = useContext(ShopContext)
+    const totalAmount = getCartTotal()
 return (
     <div className="cartcontainer"> 
        <div>
@@ -24,7 +25,7 @@ return (<Cartitem  data={item} />)
 })} 
        </div>
 <div className="checkout">
-    <p>Total: £</p>
+    <p>Total: £{totalAmount}</p>
     <button>Continue Shopping</button>
     <button>Check Out</button>
 </div>
