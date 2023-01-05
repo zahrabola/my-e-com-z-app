@@ -40,3 +40,16 @@
     font-weight: bolder;
   
   }
+  .checkout button{
+width: 160px;
+height: 30px;
+margin: 10px;
+background-color: transparent;
+  border: 2px solid  rgb(226, 39, 132);
+border-radius: 15px;
+  }
+ .checkout button:hover {
+    background-color:  rgb(226, 39, 132);
+    color: white;
+    cursor: pointer;
+  }

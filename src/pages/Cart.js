@@ -21,9 +21,13 @@ return (<Cartitem  data={item} />)
         return <>
     </>
     }
-})
-        } 
+})} 
        </div>
+<div className="checkout">
+    <p>Total: £</p>
+    <button>Continue Shopping</button>
+    <button>Check Out</button>
+</div>
     </div>
 )
 
